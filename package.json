@@ -1,5 +1,5 @@
 {
-  "name": "react-form",
+  "name": "@marcster/react-form",
   "version": "0.1.0",
   "description": "React Form Builder from JSON",
   "main": "./build/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4rcster/react-form"
+    "url": "git+https://github.com/m4rcster/react-form.git"
   },
   "author": "Marc Liew",
   "license": "ISC",
@@ -26,5 +26,10 @@
     "style-loader": "^1.3.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/m4rcster/react-form/issues"
+  },
+  "homepage": "https://github.com/m4rcster/react-form#readme",
+  "dependencies": {}
 }
