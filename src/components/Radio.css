@@ -1,0 +1,44 @@
+.radio {
+  margin-bottom: 32px;
+}
+
+.radio > span {
+  margin-right: 16px;
+}
+
+.radio > label {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio] + span {
+  font-size: 24px;
+  color: var(--text-base);
+  padding: 8px 24px;
+  border: 1px solid var(--text-base);
+  margin-right: -2px;
+  cursor: pointer;
+}
+
+input[type=radio]:checked + span {
+  background: var(--text-base);
+  color: var(--text-invert);
+}
+
+.radio label:first-of-type > span {
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+}
+
+.radio label:last-of-type > span {
+  border-radius: 0 10px 10px 0;
+}
+
+.radio.has-error > label > span {
+  border-color: var(--error-color);
+  color: var(--error-color);
+}
